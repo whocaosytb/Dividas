@@ -7,7 +7,7 @@ export interface Debt {
   valor: number;
   data_limite: string;
   obs: string;
-  status?: 'ativa' | 'quitada'; // Adicionado para suportar o filtro da UI
+  situacao: 'Aberta' | 'Fechada';
 }
 
 export interface DashboardStats {
